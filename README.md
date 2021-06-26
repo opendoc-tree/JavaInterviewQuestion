@@ -663,6 +663,8 @@ using code blocks to write a lines of code in lambda expression
 (parameter1, parameter2) -> {code blocks}
 ```
 
+**Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/lambda.java
+
 ### What is Functional Interface
 An Interface that can contains only one abstract method is known as functional interface. It can have any number of default or static method but can contain only one abstract method.
 
