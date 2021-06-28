@@ -693,3 +693,5 @@ There are Four type method reference:
 
 4) Constructor Reference. **Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/reference_constructor.java
 
+### What is Optional
+We use optional to avoid nullpointer exception in runtime.
