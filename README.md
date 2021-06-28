@@ -669,3 +669,27 @@ using code blocks to write a lines of code in lambda expression
 An Interface that can contains only one abstract method is known as functional interface. It can have any number of default or static method but can contain only one abstract method.
 
 **Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/functional_interface.java
+
+### What is Method Reference
+Method references are a special type of lambda expressions
+
+**Syntax** - 
+
+```
+Object :: methodName
+```
+**Example** - 
+
+```
+list.forEach(System.out::println)
+```
+There are Four type method reference:
+
+1) Static Method Reference.
+
+2) Instance Method Reference of a particular object.
+
+3) Instance Method Reference of an arbitrary object of a particular type.
+
+4) Constructor Reference
+
