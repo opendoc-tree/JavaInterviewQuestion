@@ -274,6 +274,10 @@ Ans) - child class method will be called. see this example - https://github.com/
 
 In runtime polymorphism object can call **overriding methods of child class**, **non overriding methods of parent class** but do not call **non overriding methods of child class**
 
+### Difference between super and super()
+**super** - super is used to call super class variables and methods by the subclass object when they are overridden by a subclass
+
+**super()** - super(); is used to invoke the super class’s constructor
 
 ## Interface
 
