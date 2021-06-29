@@ -703,3 +703,8 @@ We use optional to avoid nullpointer exception in runtime.
 
 ### What is Default Method
 Traditionally, Interfaces only used for method declarations (not implementations). But in Java 8 we can implement method in interface using **default** keyword. This method is called default method
+
+**Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/default_method.java
+
+### In case both the implemented interfaces contain default methods with same method signature
+https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/override_default_method.java
