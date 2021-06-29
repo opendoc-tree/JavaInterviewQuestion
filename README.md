@@ -696,3 +696,6 @@ There are Four type method reference:
 ### What is Optional
 We use optional to avoid nullpointer exception in runtime.
 **Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/optional_example.java
+
+### What is Default Method
+Traditionally, Interfaces only used for method declarations (not implementations). But in Java 8 we can implement method in interface using **default** keyword. This method is called default method
