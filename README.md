@@ -695,3 +695,4 @@ There are Four type method reference:
 
 ### What is Optional
 We use optional to avoid nullpointer exception in runtime.
+**Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/optional_example.java
