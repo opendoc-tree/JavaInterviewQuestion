@@ -685,11 +685,13 @@ list.forEach(System.out::println)
 ```
 There are Four type method reference:
 
-1) Static Method Reference.
+1) Static Method Reference. **Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/reference_static_method.java
 
-2) Instance Method Reference of a particular object.
+2) Instance Method Reference of a particular object. **Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/reference_instance_method.java 
 
-3) Instance Method Reference of an arbitrary object of a particular type.
+3) Instance Method Reference of an arbitrary object of a particular type. **Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/reference_instance_method_object_type.java
 
-4) Constructor Reference
+4) Constructor Reference. **Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/reference_constructor.java
 
+### What is Optional
+We use optional to avoid nullpointer exception in runtime.
