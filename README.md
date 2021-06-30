@@ -43,6 +43,7 @@ No, we cannot override main method of java because a static method cannot be ove
 
 ### What is Singleton Class
 a singleton class is a class that have only one object.
+
 **Example**: - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/singleton_class.java
 
 ## String, StringBuffer and StringBuilder
