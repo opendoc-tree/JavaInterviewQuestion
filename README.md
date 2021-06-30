@@ -41,11 +41,15 @@ Yes, but execution will strat from this main method : **public static void main(
 ### Can we override main method in java
 No, we cannot override main method of java because a static method cannot be overridden. See this example: https://github.com/dipakongit/javaprog/blob/master/src/static_method_cannot_be_overridden.java
 
+### What is Singleton Class
+a singleton class is a class that have only one object.
+**Example**: - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/singleton_class.java
+
 ## String, StringBuffer and StringBuilder
 
 ### What is immutable object in Java
 immutable means unchangeable.Once object is created its data can't be changed. Example: wrapper class, string class etc..
-Example: - https://github.com/dipakongit/javaprog/blob/master/src/immutable_object_in_Java.java
+**Example**: - https://github.com/dipakongit/javaprog/blob/master/src/immutable_object_in_Java.java
 
 ### Why string objects are immutable in java
 Suppose there are 5 reference variables,all referes to one object.If one reference variable changes the value of the object, it will be affected to all the reference variables. That is why string objects are immutable in java, once created can't be changed, any modification means a new object is created.
