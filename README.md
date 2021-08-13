@@ -39,7 +39,7 @@ Java runtime terminates the program and print the exception message
 Yes, but execution will strat from this main method : **public static void main(String[] args)**
 
 ### Can we override main method in java
-No, we cannot override main method of java because a static method cannot be overridden. See this example: https://github.com/dipakongit/javaprog/blob/master/src/static_method_cannot_be_overridden.java
+No, we cannot override main method of java because a static method cannot be overridden. See this example: https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/static_method_cannot_be_overridden.java
 
 ### What is Singleton Class
 a singleton class is a class that can have only one object.
@@ -50,7 +50,7 @@ a singleton class is a class that can have only one object.
 
 ### What is immutable object in Java
 immutable means unchangeable.Once object is created its data can't be changed. Example: wrapper class, string class etc..
-**Example**: - https://github.com/dipakongit/javaprog/blob/master/src/immutable_object_in_Java.java
+**Example**: - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/immutable_object_in_Java.java
 
 ### Why string objects are immutable in java
 Suppose there are 5 reference variables,all referes to one object.If one reference variable changes the value of the object, it will be affected to all the reference variables. That is why string objects are immutable in java, once created can't be changed, any modification means a new object is created.
@@ -127,7 +127,7 @@ Yes. If two objects are equal hashCode will always be same. But if hashCode is s
 
 ### what is instanceof
  is used to check whether an object is an instance of a particular class or not. instanceof returns true even if we compare with subclass because subclass is instance of superclass
-Example: - https://github.com/dipakongit/javaprog/blob/master/src/instanceof_at_java.java
+Example: - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/instanceof_at_java.java
 
 ### what is getClass() method
 getClass() is the method of Object class. This method returns the runtime class of this object.
@@ -139,7 +139,7 @@ Output: - Class of Object obj is : java.lang.String
 ```
 ### finalize() method in Java
 The finalize() method of Object class is a method that the Garbage Collector always calls just before destroying the object which is eligible for Garbage Collection
-https://github.com/dipakongit/javaprog/blob/master/src/finalize_method.java
+https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/finalize_method.java
 
 ## Wrapper class
 
@@ -275,7 +275,7 @@ animal.animalSound();
 
 **Which version is called?**
 
-Ans) - child class method will be called. see this example - https://github.com/dipakongit/javaprog/blob/master/src/method_overriding.java
+Ans) - child class method will be called. see this example - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/method_overriding.java
 
 In runtime polymorphism object can call **overriding methods of child class**, **non overriding methods of parent class** but do not call **non overriding methods of child class**
 
@@ -288,7 +288,7 @@ In runtime polymorphism object can call **overriding methods of child class**, *
 
 ### What is Interface
 An interface is a collection of method declaration without implementation. Another way to achieve abstraction in Java using interface
-https://github.com/dipakongit/javaprog/blob/master/src/interface_example.java
+https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/interface_example.java
 
 ## Access Modifier
 
@@ -300,7 +300,7 @@ https://github.com/dipakongit/javaprog/blob/master/src/interface_example.java
 
 ## Java Abstraction
 
-See Example - https://github.com/dipakongit/javaprog/blob/master/src/abstract_in_java.java
+See Example - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/abstract_in_java.java
 
 ### Abstract class
 Abstract class is a restricted class that cannot be used to create objects. We can access abstract class from another class using extend.
@@ -404,7 +404,7 @@ No, we required one of them
 
 ### What is try with resource
 try-with-resources statement is a try statement that declares one or more resources. The resource is as an object that must be closed after finishing the program.
-Example: - https://github.com/dipakongit/javaprog/blob/master/src/try_with_resource.java
+Example: - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/try_with_resource.java
 
 ### Can we have multiple catch block
 Yes, but we mainten order of catch block means child class of exception must be at top and parent class of exception must be at button 
@@ -496,7 +496,7 @@ Suppose we have list of String with duplicate values
 * **1st way** - using Set. Because set can't contain duplicate value
 * **2nd way** - using java8 Stream Api
 
-Example - https://github.com/dipakongit/javaprog/blob/master/src/remove_duplicate_value_from_list.java
+Example - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/remove_duplicate_value_from_list.java
 
 ### How data stored in LinkedList
 LinkedList uses doubly linked list to store the element where every element is node. Every node have 3 information: the data, address of the previous node, address of the next node
@@ -568,7 +568,7 @@ Two Keys same hashcode means two key have in same bucket. So, equala() method ma
 
 ### How to make custom class as Key in HashMap
 We need to override equals() and hashCode() method
-Example - https://github.com/dipakongit/javaprog/blob/master/src/custom_class_as_key_hashmap.java
+Example - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/custom_class_as_key_hashmap.java
 
 ### Can HashMap contain duplicate Keys
 No, HashMap contain only unique keys. But it can contain duplicate values
@@ -582,7 +582,7 @@ Yes, but it can contain onle one null key and multiple null values
 Comparable | Comparator
 --- | ---
 Sorting is done by single field | Sorting is done by multiple field
-https://github.com/dipakongit/javaprog/blob/master/src/comparable_example.java | https://github.com/dipakongit/javaprog/blob/master/src/comparator_example.java
+https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/comparable_example.java | https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/comparator_example.java
 
 ## Concurrent collections
 
@@ -600,7 +600,7 @@ In Traditional Collections, if a thread is iterating a Collection object and if 
 Traditional Collections classes is good choice if we are not using thread in our application | Concurrent Collections is good choice if we are using Multiple Threads in our application
  ArrayList, LinkedList, HashMap etc. | CopyOnWriteArrayList, CopyOnWriteArraySet, ConcurrentHashMap etc.
 
-see this example - https://github.com/dipakongit/javaprog/blob/master/src/diff_traditional_concurrent_collections.java
+see this example - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/diff_traditional_concurrent_collections.java
 
 ## Generics
 
@@ -628,9 +628,9 @@ It avoid class cast exception at runtime. It provide a compile time checking
 ### What is Generics Class
 A class that operates on a parameterized type is called generic class
 
-**Example of Generics Class** : https://github.com/dipakongit/javaprog/blob/master/src/generics/generics_class.
+**Example of Generics Class** : https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/generics/generics_class.
 
-**Example of Generics Method** : https://github.com/dipakongit/javaprog/blob/master/src/generics/generics_method.java
+**Example of Generics Method** : https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/generics/generics_method.java
 
 ### What is bounded and unbounded wildcards in Generics?
 Bounded and Unbounded wildcards in generics are used to bound any Type. Bounded wildcard have two types
@@ -641,9 +641,9 @@ Bounded and Unbounded wildcards in generics are used to bound any Type. Bounded 
 
 Single **<?>** is called an **Unbounded** wildcard in generic and it can represent any type
 
-**Example of Bounded wildcards** : https://github.com/dipakongit/javaprog/blob/master/src/generics/bounded_wildcard.java
+**Example of Bounded wildcards** : https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/generics/bounded_wildcard.java
 
-**Example of Unbounded wildcards** : https://github.com/dipakongit/javaprog/blob/master/src/generics/Unbounded_wildcard.java
+**Example of Unbounded wildcards** : https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/generics/Unbounded_wildcard.java
 
 ### Difference between ArrayList<? extends T>  and ArrayList<? super T>
 ArrayList<? extends T> | ArrayList<? super T>
