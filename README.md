@@ -44,7 +44,7 @@ No, we cannot override main method of java because a static method cannot be ove
 ### What is Singleton Class
 a singleton class is a class that can have only one object.
 
-**Example**: - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/singleton_class.java
+**Example**: - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/singleton_class.java
 
 ## String, StringBuffer and StringBuilder
 
@@ -672,12 +672,12 @@ using code blocks to write a lines of code in lambda expression
 (parameter1, parameter2) -> {code blocks}
 ```
 
-**Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/lambda.java
+**Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/lambda.java
 
 ### What is Functional Interface
 An Interface that can contains only one abstract method is known as functional interface. It can have any number of default or static method but can contain only one abstract method.
 
-**Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/functional_interface.java
+**Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/functional_interface.java
 
 ### What is Method Reference
 Method references are a special type of lambda expressions
@@ -694,25 +694,25 @@ list.forEach(System.out::println)
 ```
 There are Four type method reference:
 
-1) Static Method Reference. **Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/reference_static_method.java
+1) Static Method Reference. **Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/reference_static_method.java
 
-2) Instance Method Reference of a particular object. **Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/reference_instance_method.java 
+2) Instance Method Reference of a particular object. **Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/reference_instance_method.java 
 
-3) Instance Method Reference of an arbitrary object of a particular type. **Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/reference_instance_method_object_type.java
+3) Instance Method Reference of an arbitrary object of a particular type. **Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/reference_instance_method_object_type.java
 
-4) Constructor Reference. **Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/reference_constructor.java
+4) Constructor Reference. **Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/reference_constructor.java
 
 ### What is Optional
 We use optional to avoid nullpointer exception in runtime.
-**Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/optional_example.java
+**Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/optional_example.java
 
 ### What is Default Method
 Traditionally, Interfaces only used for method declarations (not implementations). But in Java 8 we can implement method in interface using **default** keyword. This method is called default method
 
-**Example** - https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/default_method.java
+**Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/default_method.java
 
 ### In case both the implemented interfaces contain default methods with same method signature
-https://github.com/dipakongit/JavaInterviewQuestion/blob/master/src/java8/override_default_method.java
+https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/override_default_method.java
 
 ### What is Stream API in Java
 A Stream in Java 8 can be defined as a sequence of elements from a source. Streams supports aggregate operations on the elements. The source of elements can be Collection or Array that provides data to the Stream.
