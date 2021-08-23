@@ -9,28 +9,28 @@ public class linkedlist_example {
         //declare String type LinkedList
         LinkedList<String> linkedList = new LinkedList<>();
 
-        // add data in LinkedList
+        // add element in LinkedList
         linkedList.add("A");  // index - 0
         linkedList.add("B");  // index - 1
         linkedList.add("C");  // index - 2
 
-        // count data in LinkedList
-        System.out.println("count data = "+linkedList.size());
+        // count element in LinkedList
+        System.out.println("count element = "+linkedList.size());
 
-        // get a data from LinkedList using index
-        System.out.println("Get data of index number 1 = "+linkedList.get(1));
+        // get a element from LinkedList using index
+        System.out.println("Get element of index number 1 = "+linkedList.get(1));
 
-        // find a data in LinkedList exist or not
+        // find a element in LinkedList exist or not
         System.out.println("C is exist = "+linkedList.contains("C"));
         System.out.println("X is exist = "+linkedList.contains("X"));
 
-        // print all data of LinkedList using foreach loop
-        for(String data:linkedList)
+        // print all element of LinkedList using foreach loop
+        for(String element:linkedList)
         {
-            System.out.println(data);
+            System.out.println(element);
         }
 
-        // print all data of LinkedList using iterator
+        // print all element of LinkedList using iterator
         System.out.println("By Iterator");
         Iterator iterator=linkedList.iterator();
         while (iterator.hasNext())
@@ -38,24 +38,24 @@ public class linkedlist_example {
             System.out.println(iterator.next());
         }
 
-        // modify a data in LinkedList. change A to X
+        // modify a element in LinkedList. change A to X
         linkedList.set(0,"X");
         System.out.println("See result");
-        for(String data:linkedList)
+        for(String element:linkedList)
         {
-            System.out.println(data);
+            System.out.println(element);
         }
 
-        // remove a data in LinkedList. remove C from LinkedList
+        // remove a element in LinkedList. remove C from LinkedList
         linkedList.remove("C");
         System.out.println("See result");
-        for(String data:linkedList)
+        for(String element:linkedList)
         {
-            System.out.println(data);
+            System.out.println(element);
         }
 
-        // clear all data from LinkedList.
+        // clear all element from LinkedList.
         linkedList.clear();
-        System.out.println("count data in LinkedList = "+linkedList.size());
+        System.out.println("count element in LinkedList = "+linkedList.size());
     }
 }

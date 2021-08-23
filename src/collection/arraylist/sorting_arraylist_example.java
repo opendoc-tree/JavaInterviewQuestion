@@ -16,16 +16,16 @@ public class sorting_arraylist_example {
         // Sorting ArrayList
         Collections.sort(arrayList);
         System.out.println("ascending order result");
-        for(String data:arrayList)
+        for(String element:arrayList)
         {
-            System.out.println(data);
+            System.out.println(element);
         }
 
         Collections.sort(arrayList,Collections.reverseOrder());
         System.out.println("descending order result");
-        for(String data:arrayList)
+        for(String element:arrayList)
         {
-            System.out.println(data);
+            System.out.println(element);
         }
     }
 }

@@ -15,16 +15,16 @@ public class sorting_linkedlist_example {
         // Sorting LinkedList
         Collections.sort(linkedList);
         System.out.println("ascending order result");
-        for(String data:linkedList)
+        for(String element:linkedList)
         {
-            System.out.println(data);
+            System.out.println(element);
         }
 
         Collections.sort(linkedList,Collections.reverseOrder());
         System.out.println("descending order result");
-        for(String data:linkedList)
+        for(String element:linkedList)
         {
-            System.out.println(data);
+            System.out.println(element);
         }
     }
 }

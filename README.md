@@ -482,7 +482,7 @@ https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection
 3) LinkedList is non synchronized.
 4) LinkedList can contain duplicate elements.
 
-**See example of Arraylist**
+**See example of LinkedList**
 https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/linkedlist
 
 ### Difference between ArrayList and LinkedList
@@ -496,6 +496,9 @@ ArrayList is slow because it internally uses an array. If any element is removed
 2) HashSet contains unique elements only.
 3) HashSet allows null value. but can containt only one because it does't allow duplicate value
 4) The initial default capacity of HashSet is 16
+
+**See example of HashSet**
+https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/hashset
 
 ### How can i remove duplicate values in list
 Suppose we have list of String with duplicate values
@@ -517,6 +520,9 @@ LinkedList uses doubly linked list to store the element where every element is n
 An Iterator is an object that can be used to loop through collections
 
 ## HashMap
+
+**See example of HashMap**
+https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/hashmap
 
 ### How a HashMap work internally
 It implements map interface and store data in key-value pair. Internaly HashMap use array of nodes to store the data. Node is represented as a class. Node contain following information

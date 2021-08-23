@@ -20,9 +20,9 @@ public class merge_arraylist_example {
 
         // merge arraylist2 with arraylist1
         arrayList1.addAll(arrayList2);
-        for(String data:arrayList1)
+        for(String element:arrayList1)
         {
-            System.out.println(data);
+            System.out.println(element);
         }
     }
 }

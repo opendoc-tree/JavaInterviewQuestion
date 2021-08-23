@@ -19,9 +19,9 @@ public class merge_linkedlist_example {
 
         // merge LinkedList2 with LinkedList1
         linkedList1.addAll(linkedList2);
-        for(String data:linkedList1)
+        for(String element:linkedList1)
         {
-            System.out.println(data);
+            System.out.println(element);
         }
     }
 }
