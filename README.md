@@ -474,9 +474,7 @@ Arrays have fixed size | ArrayList have dynamic size
 4) ArrayList can contain duplicate elements.
 
 **See example of Arraylist**
-1) https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/arraylist_example.java
-2) https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/sorting_arraylist_example.java
-3) https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/merge_arraylist_example.java
+https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/arraylist
 
 ### Details about LinkedList
 1) LinkedList uses a doubly linked list to store the elements.
@@ -485,9 +483,7 @@ Arrays have fixed size | ArrayList have dynamic size
 4) LinkedList can contain duplicate elements.
 
 **See example of Arraylist**
-1) https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/arraylist_example.java
-2) https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/sorting_arraylist_example.java
-3) https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/merge_arraylist_example.java
+https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/linkedlist
 
 ### Difference between ArrayList and LinkedList
 ArrayList | LinkedList
