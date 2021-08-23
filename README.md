@@ -451,10 +451,11 @@ class Room extends Building{
 this give a compile time error. Because the overriding method of child class cannot throw a checked exception if the overridden method of base class is not throwing an exception.
 
 # Collections in Java
+
 The Collection in Java is a framework that provides an architecture to store and manipulate the group of objects.
 
 Collection Framework Hierarchy
-![](https://github.com/dipakongit/javaprog/blob/master/java-collection-framework-hierarchy.jpg)
+![](https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/java-collection-framework-hierarchy.jpg)
 
 ### Difference between List and Set
 List can contain duplicate values. Set do not allows duplicate values
@@ -471,6 +472,11 @@ Arrays have fixed size | ArrayList have dynamic size
 2) ArrayList is slower than LinkedList because it internally uses an array. If any element is removed from the array, all the bits are shifted in memory
 3) ArrayList is non synchronized.
 4) ArrayList can contain duplicate elements.
+
+**See example of Arraylist**
+1) https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/arraylist_example.java
+2) https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/sorting_arraylist_example.java
+3) https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/merge_arraylist_example.java
 
 ### Details about LinkedList
 1) LinkedList uses a doubly linked list to store the elements.
@@ -500,7 +506,7 @@ Example - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/
 
 ### How data stored in LinkedList
 LinkedList uses doubly linked list to store the element where every element is node. Every node have 3 information: the data, address of the previous node, address of the next node
-![](https://github.com/dipakongit/javaprog/blob/master/double-linked-list.jpg)
+![](https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/double-linked-list.jpg)
 
 ### When we prefer ArrayList and LinkedList
 * **LinkedList** - When there is lot of insertion/deletion operation we prefer LinkedList. Because on every insertion/deletion no bit shifting is required in memory in LinkedList, only the address of the prev and next element are changed, so operation is faster
