@@ -510,7 +510,7 @@ Example - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/
 
 ### How data stored in LinkedList
 LinkedList uses doubly linked list to store the element where every element is node. Every node have 3 information: the data, address of the previous node, address of the next node
-![](https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/double-linked-list.jpg)
+![](double-linked-list.jpg)
 
 ### When we prefer ArrayList and LinkedList
 * **LinkedList** - When there is lot of insertion/deletion operation we prefer LinkedList. Because on every insertion/deletion no bit shifting is required in memory in LinkedList, only the address of the prev and next element are changed, so operation is faster
@@ -522,7 +522,7 @@ An Iterator is an object that can be used to loop through collections
 ## HashMap
 
 **See example of HashMap**
-https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/src/collection/hashmap
+[click on to see hashmap example](src/collection/hashmap)
 
 ### How a HashMap work internally
 It implements map interface and store data in key-value pair. Internaly HashMap use array of nodes to store the data. Node is represented as a class. Node contain following information
@@ -581,7 +581,7 @@ Two Keys same hashcode means two key have in same bucket. So, equala() method ma
 
 ### How to make custom class as Key in HashMap
 We need to override equals() and hashCode() method
-Example - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/custom_class_as_key_hashmap.java
+Example - [custom_class_as_key_hashmap.java](src/custom_class_as_key_hashmap.java)
 
 ### Can HashMap contain duplicate Keys
 No, HashMap contain only unique keys. But it can contain duplicate values
@@ -595,7 +595,7 @@ Yes, but it can contain onle one null key and multiple null values
 Comparable | Comparator
 --- | ---
 Sorting is done by single field | Sorting is done by multiple field
-https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/comparable_example.java | https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/comparator_example.java
+[comparable_example.java](src/comparable_example.java) | [comparator_example.java](src/comparator_example.java)
 
 ## Concurrent collections
 
@@ -613,7 +613,7 @@ In Traditional Collections, if a thread is iterating a Collection object and if 
 Traditional Collections classes is good choice if we are not using thread in our application | Concurrent Collections is good choice if we are using Multiple Threads in our application
  ArrayList, LinkedList, HashMap etc. | CopyOnWriteArrayList, CopyOnWriteArraySet, ConcurrentHashMap etc.
 
-see this example - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/diff_traditional_concurrent_collections.java
+see this example - [diff_traditional_concurrent_collections.java](src/diff_traditional_concurrent_collections.java)
 
 ## Generics
 
@@ -641,9 +641,9 @@ It avoid class cast exception at runtime. It provide a compile time checking
 ### What is Generics Class
 A class that operates on a parameterized type is called generic class
 
-**Example of Generics Class** : https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/generics/generics_class.
+**Example of Generics Class** : [generics_class.java](src/generics/generics_class.java)
 
-**Example of Generics Method** : https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/generics/generics_method.java
+**Example of Generics Method** : [generics_method.java](src/generics/generics_method.java)
 
 ### What is bounded and unbounded wildcards in Generics?
 Bounded and Unbounded wildcards in generics are used to bound any Type. Bounded wildcard have two types
