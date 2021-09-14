@@ -39,19 +39,18 @@ Java runtime terminates the program and print the exception message
 Yes, but execution will strat from this main method : **public static void main(String[] args)**
 
 ### Can we override main method in java
-No, we cannot override main method of java because a static method cannot be overridden. See this example:     
-[static_method_cannot_be_overridden.java](src/static_method_cannot_be_overridden.java)
+No, we cannot override main method of java because a static method cannot be overridden. See this example: [static_method_cannot_be_overridden.java](src/static_method_cannot_be_overridden.java)
 
 ### What is Singleton Class
 a singleton class is a class that can have only one object.
 
-**Example**: - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/singleton_class.java
+**Example**: - [singleton_class.java](src/singleton_class.java)
 
 ## String, StringBuffer and StringBuilder
 
 ### What is immutable object in Java
 immutable means unchangeable.Once object is created its data can't be changed. Example: wrapper class, string class etc..
-**Example**: - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/immutable_object_in_Java.java
+**Example**: - [immutable_object_in_Java.java](src/immutable_object_in_Java.java)
 
 ### Why string objects are immutable in java
 Suppose there are 5 reference variables,all referes to one object.If one reference variable changes the value of the object, it will be affected to all the reference variables. That is why string objects are immutable in java, once created can't be changed, any modification means a new object is created.
@@ -128,7 +127,7 @@ Yes. If two objects are equal hashCode will always be same. But if hashCode is s
 
 ### what is instanceof
  is used to check whether an object is an instance of a particular class or not. instanceof returns true even if we compare with subclass because subclass is instance of superclass
-Example: - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/instanceof_at_java.java
+Example: - [instanceof_at_java.java](src/instanceof_at_java.java)
 
 ### what is getClass() method
 getClass() is the method of Object class. This method returns the runtime class of this object.
@@ -140,7 +139,7 @@ Output: - Class of Object obj is : java.lang.String
 ```
 ### finalize() method in Java
 The finalize() method of Object class is a method that the Garbage Collector always calls just before destroying the object which is eligible for Garbage Collection
-https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/finalize_method.java
+[finalize_method.java](src/finalize_method.java)
 
 ## Wrapper class
 
@@ -276,7 +275,7 @@ animal.animalSound();
 
 **Which version is called?**
 
-Ans) - child class method will be called. see this example - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/method_overriding.java
+Ans) - child class method will be called. see this example - [method_overriding.java](src/method_overriding.java)
 
 In runtime polymorphism object can call **overriding methods of child class**, **non overriding methods of parent class** but do not call **non overriding methods of child class**
 
@@ -289,7 +288,7 @@ In runtime polymorphism object can call **overriding methods of child class**, *
 
 ### What is Interface
 An interface is a collection of method declaration without implementation. Another way to achieve abstraction in Java using interface
-https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/interface_example.java
+[interface_example.java](src/interface_example.java)
 
 ## Access Modifier
 
@@ -301,7 +300,7 @@ https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/interface_
 
 ## Java Abstraction
 
-See Example - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/abstract_in_java.java
+See Example - [abstract_in_java.java](src/abstract_in_java.java)
 
 ### Abstract class
 Abstract class is a restricted class that cannot be used to create objects. We can access abstract class from another class using extend.
@@ -405,7 +404,7 @@ No, we required one of them
 
 ### What is try with resource
 try-with-resources statement is a try statement that declares one or more resources. The resource is as an object that must be closed after finishing the program.
-Example: - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/try_with_resource.java
+Example: - [try_with_resource.java](src/try_with_resource.java)
 
 ### Can we have multiple catch block
 Yes, but we mainten order of catch block means child class of exception must be at top and parent class of exception must be at button 
@@ -456,7 +455,7 @@ this give a compile time error. Because the overriding method of child class can
 The Collection in Java is a framework that provides an architecture to store and manipulate the group of objects.
 
 Collection Framework Hierarchy
-![](https://github.com/opendoc-tree/JavaInterviewQuestion/blob/master/java-collection-framework-hierarchy.jpg)
+![](java-collection-framework-hierarchy.jpg)
 
 ### Difference between List and Set
 List can contain duplicate values. Set do not allows duplicate values
