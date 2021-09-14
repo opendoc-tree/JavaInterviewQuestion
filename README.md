@@ -707,25 +707,25 @@ list.forEach(System.out::println)
 ```
 There are Four type method reference:
 
-1) Static Method Reference. **Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/reference_static_method.java
+1) Static Method Reference. **Example** - [reference_static_method.java](src/java8/reference_static_method.java)
 
-2) Instance Method Reference of a particular object. **Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/reference_instance_method.java 
+2) Instance Method Reference of a particular object. **Example** - [reference_instance_method.java](src/java8/reference_instance_method.java) 
 
-3) Instance Method Reference of an arbitrary object of a particular type. **Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/reference_instance_method_object_type.java
+3) Instance Method Reference of an arbitrary object of a particular type. **Example** - [reference_instance_method_object_type.java](src/java8/reference_instance_method_object_type.java)
 
-4) Constructor Reference. **Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/reference_constructor.java
+4) Constructor Reference. **Example** - [reference_constructor.java](src/java8/reference_constructor.java)
 
 ### What is Optional
 We use optional to avoid nullpointer exception in runtime.
-**Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/optional_example.java
+**Example** - [optional_example.java](src/java8/optional_example.java)
 
 ### What is Default Method
 Traditionally, Interfaces only used for method declarations (not implementations). But in Java 8 we can implement method in interface using **default** keyword. This method is called default method
 
-**Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/default_method.java
+**Example** - [default_method.java](src/java8/default_method.java)
 
 ### In case both the implemented interfaces contain default methods with same method signature
-https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/override_default_method.java
+[override_default_method.java](src/java8/override_default_method.java)
 
 ### What is Stream API in Java
 A Stream in Java 8 can be defined as a sequence of elements from a source. Streams supports aggregate operations on the elements. The source of elements can be Collection or Array that provides data to the Stream.
