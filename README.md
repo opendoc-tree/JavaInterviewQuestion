@@ -39,7 +39,8 @@ Java runtime terminates the program and print the exception message
 Yes, but execution will strat from this main method : **public static void main(String[] args)**
 
 ### Can we override main method in java
-No, we cannot override main method of java because a static method cannot be overridden. See this example: https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/static_method_cannot_be_overridden.java
+No, we cannot override main method of java because a static method cannot be overridden. See this example:     
+[static_method_cannot_be_overridden.java](src/static_method_cannot_be_overridden.java)
 
 ### What is Singleton Class
 a singleton class is a class that can have only one object.
