@@ -654,9 +654,9 @@ Bounded and Unbounded wildcards in generics are used to bound any Type. Bounded 
 
 Single **<?>** is called an **Unbounded** wildcard in generic and it can represent any type
 
-**Example of Bounded wildcards** : https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/generics/bounded_wildcard.java
+**Example of Bounded wildcards** : [bounded_wildcard.java](src/generics/bounded_wildcard.java)
 
-**Example of Unbounded wildcards** : https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/generics/Unbounded_wildcard.java
+**Example of Unbounded wildcards** : [Unbounded_wildcard.java](src/generics/Unbounded_wildcard.java)
 
 ### Difference between ArrayList<? extends T>  and ArrayList<? super T>
 ArrayList<? extends T> | ArrayList<? super T>
@@ -685,12 +685,12 @@ using code blocks to write a lines of code in lambda expression
 (parameter1, parameter2) -> {code blocks}
 ```
 
-**Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/lambda.java
+**Example** - [lambda.java](src/java8/lambda.java)
 
 ### What is Functional Interface
 An Interface that can contains only one abstract method is known as functional interface. It can have any number of default or static method but can contain only one abstract method.
 
-**Example** - https://github.com/opendoc-tree/JavaInterviewQuestion/tree/master/src/java8/functional_interface.java
+**Example** - [functional_interface.java](src/java8/functional_interface.java)
 
 ### What is Method Reference
 Method references are a special type of lambda expressions
