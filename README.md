@@ -8,9 +8,9 @@ Yes, We can build our application to one platform and run it on other platform. 
 With JVM. We compile the Java code we have the **.class** file, which contain the bytecode. JVM converts this bytecode into machines language which any os can understand
 
 ### Explain JVM, JDk and JRE
-**JVM (Java Virtual machine)** - converts JAVA bytecode into machines language
-**JRE (Java Runtime Environment)** - is used to run java application. It contains Java Virtual machine (JVM), core classes and supporting files
-**JDK (Java Development Kit)** -  is used to develop Java applications. It contains Java Runtime Environment (JRE), a compiler (javac), archiver (jar) and some extra tools to write java program.
+**JVM (Java Virtual machine)** - converts JAVA bytecode into machines language           
+**JRE (Java Runtime Environment)** - is used to run java application. It contains Java Virtual machine (JVM), core classes and supporting files         
+**JDK (Java Development Kit)** -  is used to develop Java applications. It contains Java Runtime Environment (JRE), a compiler (javac), archiver (jar) and some extra tools to write java program.         
 
 **NB** - javac only have in JDK
 
